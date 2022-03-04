@@ -47,7 +47,7 @@ Or define a `phpstan` script in `composer.json`:
 }
 ```
 
-And then run PHP stan with:
+And then run PHPStan with:
 
 ```sh
 composer run-script phpstan
