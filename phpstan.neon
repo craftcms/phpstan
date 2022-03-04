@@ -1,0 +1,21 @@
+parameters:
+    excludePaths:
+        - ../cms/src/test/internal/*
+        - ../cms/src/config/composer-classes.php
+        - ../cms/src/config/mimeTypes.php
+        - ../cms/src/views/debug/*
+    scanFiles:
+        - ../cms/src/Craft.php
+        - ../../yiisoft/yii2/Yii.php
+        - ../../twig/twig/src/Extension/CoreExtension.php
+    stubFiles:
+        - stubs/BaseYii.stub
+        - stubs/console/Application.stub
+        - stubs/web/Application.stub
+    earlyTerminatingMethodCalls:
+        Craft:
+            - dd
+        yii\base\Application:
+            - end
+        yii\base\ErrorHandler:
+            - convertExceptionToError

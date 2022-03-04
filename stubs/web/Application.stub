@@ -1,0 +1,7 @@
+<?php
+
+namespace craft\web;
+
+class Application
+{
+}

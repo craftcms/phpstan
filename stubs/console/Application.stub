@@ -1,0 +1,7 @@
+<?php
+
+namespace craft\console;
+
+class Application
+{
+}
