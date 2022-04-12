@@ -1,6 +1,6 @@
 # PHPStan config for Craft CMS
 
-This package provides a base [PHPStan](https://github.com/phpstan/phpstan) configuration for Craft CMS projects.
+This package provides a base [PHPStan](https://github.com/phpstan/phpstan) configuration for Craft CMS plugins and projects.
 
 To install, run the following commands:
 
@@ -27,6 +27,8 @@ parameters:
     paths:
         - src
 ```
+
+Change the `paths` array to whichever directory(s) contain the source code you want PHPStan to inspect.
 
 (See PHPStan’s [Config Reference](https://phpstan.org/config-reference) for a full list of supported config parameters.)
 
