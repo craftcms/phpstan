@@ -2,7 +2,7 @@
 
 This package provides a base [PHPStan](https://github.com/phpstan/phpstan) configuration for Craft CMS plugins and projects.
 
-To install, run the following commands:
+To install, run the following commands within your plugin or project:
 
 ```sh
 composer config minimum-stability dev
