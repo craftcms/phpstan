@@ -13,6 +13,10 @@ composer config prefer-stable true
 ```
 
 ```sh
+composer require phpstan/phpstan --dev
+```
+
+```sh
 composer require craftcms/phpstan:dev-main --dev
 ```
 

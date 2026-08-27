@@ -1,7 +1,7 @@
 {
     "name": "craftcms/phpstan",
     "description": "PHPStan configuration for Craft CMS projects",
-    "require": {
-        "phpstan/phpstan": "^1.4.6"
+    "suggest": {
+        "phpstan/phpstan": "Needed to run PHPStan"
     }
 }
